@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="requerimiento1.css">
+    <!-- JS -->
+    <script src="requerimiento1.js"></script>
+</head>
+<body>
+    <h2>REALIZA TU PEDIDO</h2>
+
+    <!-- FORMULARIO -->
+    <form>
+        <div class="datos">
+            <label for="nombre">Nombre y apellidos:</label>
+            <input type="text" id="nombre" name="nombre">
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion">
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+
+        <!-- Aquí irán los tamaños de las pizzas -->
+        <div id="tamanopizza">
+        </div>
+
+        <!-- Aquí irán los ingredientes -->
+        <div id="ingredientes">
+        </div>  
+
+        <!-- Botones -->
+        <button type="button" id="refreshButton">Refrescar</button>
+        <button id="procesarPedidoButton">Procesar Pedido</button>
+        <div id="precioTotal"></div>
+    </form>
+</body>
+</html>

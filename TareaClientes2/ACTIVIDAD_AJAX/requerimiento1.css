@@ -1,0 +1,28 @@
+/*Damos forma al encabezado de la web*/
+h2 {
+    width: 600px;
+    background-color: #9f16385c;
+    margin: auto;
+    text-align: center; 
+    border: #4e210b 1px solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*Estilos para el form*/
+form {
+    padding-top: 10px;
+    border: #4e210b 1px solid;
+    width: 600px;
+    background-color: #c8254d23;
+    margin: auto;
+    text-align: center;
+}
+
+/*Estilos para los campos de texto*/
+.datos label {
+    display: block;
+    margin-bottom: 10px;
+  
+}
+

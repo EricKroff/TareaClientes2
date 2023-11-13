@@ -1,0 +1,15 @@
+{
+    "tamanosPizza": {
+      "Pequeña": 5,
+      "Mediana": 8,
+      "Grande": 10
+    },
+    "ingredientes": {
+      "Jamón": 1,
+      "Queso": 2,
+      "Champiñones": 1.5,
+      "Aceitunas": 0.75
+  
+    }
+  }
+  
